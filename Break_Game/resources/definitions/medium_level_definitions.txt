@@ -1,0 +1,72 @@
+
+# Level 1
+# Harder than direct hit
+
+START_LEVEL
+level_name:Under The water
+ball_velocities:5,550 -5,550 0,550
+background:image(background_images/under_water.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:100
+row_height:25
+num_blocks:6
+START_BLOCKS
+------cbc
+------bcb
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# The Sun Level
+
+START_LEVEL
+level_name: The Sun
+ball_velocities:-30,550 -45,550 -60,550
+background:color(RGB(0,102,153))
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:25
+num_blocks:36
+START_BLOCKS
+yyyyoo
+yyyyoo
+yyyyoo
+yyyyoo
+oooooo
+oooooo
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old Green 3 level
+
+START_LEVEL
+level_name:Green 3
+ball_velocities:60,550 -60,550
+background:color(RGB(0,128,43))
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:280
+blocks_start_y:80
+row_height:25
+num_blocks:40
+START_BLOCKS
+-
+-
+-
+GGGGGGGGGG
+-rrrrrrrrr
+--yyyyyyyy
+---bbbbbbb
+----wwwwww
+
+END_BLOCKS
+END_LEVEL
